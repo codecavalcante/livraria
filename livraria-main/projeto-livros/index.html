@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./footer.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Livraria</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre nós</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Gêneros
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./suspense.html">Suspense</a></li>
+                <li><a class="dropdown-item" href="./hq.html">HQ</a></li>
+                <li><a class="dropdown-item" href="./manga.html">Mangá</a></li>
+                <li><a class="dropdown-item" href="./filosofia.html">Filosofia</a></li>
+                <li><a class="dropdown-item" href="./gibi.html">Gibi</a></li>
+                <li><a class="dropdown-item" href="./romance.html">Romance</a></li>
+                <li><a class="dropdown-item" href="./terror.html">Terror</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://fthmb.tqn.com/_NlG67gWFGafcU9cPz8gd4COZ-g=/5120x3413/filters:fill(auto,1)/socrates-greece-athens-546975617-589b585e3df78c47586efb7d.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Filosofia</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://th.bing.com/th/id/OIP.Z5D14ZQd6hxiTqZ3QwWfCQHaEU?rs=1&pid=ImgDetMain" class="d-block w-100"
+            alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Suspense</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://th.bing.com/th/id/R.7f6e6073a754a8571d22b57dcf2d00a3?rik=%2bYRo4W5pb4x3%2fQ&pid=ImgRaw&r=0"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>mangá</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://photos.enjoei.com.br/gibis-turma-da-monica-ingles/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85ODg0NjAzL2E2Y2EwMDE1ZGIyZDczYTM2ODIxYzBhMWIwMmFjNzMxLmpwZw"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Gibi</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section>
+    <h1 class="tit">Livros em alta</h1>
+
+    <div>
+      <div class="card-group">
+        <div class="card ">
+          <img src="./img/capa-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Introdução à filosofia de Bergson</h5>
+            <p class="card-text"><small class="text-body-secondary">César Rodrigues</small></p>
+            <p class="card-text">Este livro apresenta introdutoriamente o pensamento do filósofo francês Henri Bergson,
+              procurando comunicar a intuição central do pensador e expor de que modo tal intuição, ou ideia diretriz,
+              retoma e renova os temas sobre os quais ele escolheu debruçar-se.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Introdução à filosofia de Bergson</h5>
+            <p class="card-text"><small class="text-body-secondary">Ana Portich</small></p>
+            <p class="card-text">Este livro apresenta introdutoriamente o pensamento do filósofo francês Henri Bergson,
+              procurando comunicar a intuição central do pensador e expor de que modo tal intuição, ou ideia diretriz,
+              retoma e renova os temas sobre os quais ele escolheu debruçar-se.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Introdução à filosofia de Bergson</h5>
+            <p class="card-text"><small class="text-body-secondary"> Aristóteles
+
+              </small></p>
+            <p class="card-text">Este livro apresenta introdutoriamente o pensamento do filósofo francês Henri Bergson,
+              procurando comunicar a intuição central do pensador e expor de que modo tal intuição, ou ideia diretriz,
+              retoma e renova os temas sobre os quais ele escolheu debruçar-se.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Introdução à filosofia de Bergson</h5>
+            <p class="card-text"><small class="text-body-secondary">Savas L. Tsohatzidis</small></p>
+            <p class="card-text">Este livro apresenta introdutoriamente o pensamento do filósofo francês Henri Bergson,
+              procurando comunicar a intuição central do pensador e expor de que modo tal intuição, ou ideia diretriz,
+              retoma e renova os temas sobre os quais ele escolheu debruçar-se.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card ">
+          <img src="./img/capa-5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> A Republica</h5>
+            <p class="card-text"><small class="text-body-secondary">platão</small></p>
+            <p class="card-text">A República é a obra mais importante de Platão, filósofo grego que viveu entre os
+              séculos V e IV antes de Cristo. De caráter político, prega um Estado ideal governado por líderes justos,
+              sábios e instruídos. Para Platão, o homem capaz de reunir essas qualidades seria o filósofo. Ele mesmo
+              teve a oportunidade de colocar em prática suas ideias, por três vezes, todas fracassadas.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Meditações de Marco Aurélio</h5>
+            <p class="card-text"><small class="text-body-secondary">Ana Portich</small></p>
+            <p class="card-text">Uma das obras mais grandiosas da filosofia, “Meditações” reúne uma série de escritos
+              pessoais de Marco Aurélio, o sábio imperador romano admirado pela dedicação e justiça que sustentou em
+              meio às brutais guerras e calamidades desencadeadas em seu reinado.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Manual de Epicteto: A arte de viver</h5>
+            <p class="card-text"><small class="text-body-secondary">Epicteto
+              </small></p>
+            <p class="card-text">Epicteto, um dos principais representantes do estoicismo , deixou em seu legado
+              ensinamentos éticos com preceitos práticos para questões atemporais sobre a arte de viver melhor. Este
+              sucinto e primoroso Manual filosófico, compilado por seu discípulo Flávio Arriano e apresentado aqui em
+              versão bilíngue (grego-português) , reúne 53 aforismos de teor ético que expressam a preocupação
+              fundamental de Epicteto.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">O Príncipe</h5>
+            <p class="card-text"><small class="text-body-secondary">nicolau Maquiavel</small></p>
+            <p class="card-text">Este livro apresenta introdutoriamente o pensamento do filósofo francês Henri Bergson,
+              procurando comunicar a intuição central do pensador e expor de que modo tal intuição, ou ideia diretriz,
+              retoma e renova os temas sobre os quais ele escolheu debruçar-se.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2 class="tit">Livros para crianças</h2>
+    <div>
+      <div class="card-group">
+        <div class="card ">
+          <img src="./img/capa-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Introdução à filosofia de Bergson</h5>
+            <p class="card-text"><small class="text-body-secondary">César Rodrigues</small></p>
+            <p class="card-text">Este livro apresenta introdutoriamente o pensamento do filósofo francês Henri Bergson,
+              procurando comunicar a intuição central do pensador e expor de que modo tal intuição, ou ideia diretriz,
+              retoma e renova os temas sobre os quais ele escolheu debruçar-se.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Introdução à filosofia de Bergson</h5>
+            <p class="card-text"><small class="text-body-secondary">Ana Portich</small></p>
+            <p class="card-text">Este livro apresenta introdutoriamente o pensamento do filósofo francês Henri Bergson,
+              procurando comunicar a intuição central do pensador e expor de que modo tal intuição, ou ideia diretriz,
+              retoma e renova os temas sobre os quais ele escolheu debruçar-se.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Introdução à filosofia de Bergson</h5>
+            <p class="card-text"><small class="text-body-secondary"> Aristóteles
+
+              </small></p>
+            <p class="card-text">Este livro apresenta introdutoriamente o pensamento do filósofo francês Henri Bergson,
+              procurando comunicar a intuição central do pensador e expor de que modo tal intuição, ou ideia diretriz,
+              retoma e renova os temas sobre os quais ele escolheu debruçar-se.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Introdução à filosofia de Bergson</h5>
+            <p class="card-text"><small class="text-body-secondary">Savas L. Tsohatzidis</small></p>
+            <p class="card-text">Este livro apresenta introdutoriamente o pensamento do filósofo francês Henri Bergson,
+              procurando comunicar a intuição central do pensador e expor de que modo tal intuição, ou ideia diretriz,
+              retoma e renova os temas sobre os quais ele escolheu debruçar-se.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card ">
+          <img src="./img/capa-5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> A República</h5>
+            <p class="card-text"><small class="text-body-secondary">platão</small></p>
+            <p class="card-text">A República é a obra mais importante de Platão, filósofo grego que viveu entre os
+              séculos V e IV antes de Cristo. De caráter político, prega um Estado ideal governado por líderes justos,
+              sábios e instruídos. Para Platão, o homem capaz de reunir essas qualidades seria o filósofo. Ele mesmo
+              teve a oportunidade de colocar em prática suas ideias, por três vezes, todas fracassadas.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Meditações de Marco Aurélio</h5>
+            <p class="card-text"><small class="text-body-secondary">Ana Portich</small></p>
+            <p class="card-text">Uma das obras mais grandiosas da filosofia, “Meditações” reúne uma série de escritos
+              pessoais de Marco Aurélio, o sábio imperador romano admirado pela dedicação e justiça que sustentou em
+              meio às brutais guerras e calamidades desencadeadas em seu reinado.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Manual de Epicteto: A arte de viver</h5>
+            <p class="card-text"><small class="text-body-secondary">Epicteto
+              </small></p>
+            <p class="card-text">Epicteto, um dos principais representantes do estoicismo , deixou em seu legado
+              ensinamentos éticos com preceitos práticos para questões atemporais sobre a arte de viver melhor. Este
+              sucinto e primoroso Manual filosófico, compilado por seu discípulo Flávio Arriano e apresentado aqui em
+              versão bilíngue (grego-português) , reúne 53 aforismos de teor ético que expressam a preocupação
+              fundamental de Epicteto.</p>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="./img/capa-8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">O Príncipe</h5>
+            <p class="card-text"><small class="text-body-secondary">Nicolau Maquiavel</small></p>
+            <p class="card-text">Este livro apresenta introdutoriamente o pensamento do filósofo francês Henri Bergson,
+              procurando comunicar a intuição central do pensador e expor de que modo tal intuição, ou ideia diretriz,
+              retoma e renova os temas sobre os quais ele escolheu debruçar-se.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <ul class="footer">
+      <li class="info">
+        <h2>Contato</h2>
+        <ul class="ul-sem">
+          <li>
+            <h3>E-mail</h3>
+            <p>Livraria@transformers.com.br</p>
+          </li>
+          <li>
+            <h3>Telefone</h3>
+            <p>(61) 9999-9999</p>
+          </li>
+        </ul>
+      </li>
+      <li class="info-site">
+        <h2>Informações</h2>
+        <div class="">
+          <p>Quem somos</p>
+          <p>Política de privacidade</p>
+          <p>Política de troca</p>
+          <p>Prazos de entrega e procedimentos</p>
+        </div>
+      </li>
+      <li>
+        <h2>Siga-nos em nossas redes sociais!</h2>
+        <div class="info-redes">
+          <img src="./img/facebook-logo.svg" alt="" srcset="">
+          <img src="./img/instagram-logo.svg" alt="" srcset="">
+          <img src="./img/inkedin-2.svg" alt="" srcset="">
+        </div>
+      </li>
+    </ul>
+      <p class="direitos">&copy; 2024 Nossa Livraria. Todos os direitos reservados.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

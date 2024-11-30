@@ -1,0 +1,34 @@
+#footer{
+    background-color: #07264b;
+    color: #ffffff;
+}
+
+.footer h2{
+    color: #198754;
+    font-size: 20px;
+}
+
+.footer h3{
+    font-size: 16px;
+}
+
+.info-redes img{
+    width: 40px;
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-between;
+    padding: 60px 180px;
+}
+
+.direitos{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.ul-sem{
+    margin: 0;
+    padding: 0;
+}
